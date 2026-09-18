@@ -1,0 +1,28 @@
+{
+  "experiment": "V10 final locked candidate",
+  "scope": "text_classifier_only",
+  "test_rows": 200,
+  "label_counts": {
+    "safe": 100,
+    "risky": 100
+  },
+  "threshold": 0.14,
+  "metrics": {
+    "accuracy": 0.9400,
+    "precision": 0.9314,
+    "recall": 0.9500,
+    "f1": 0.9406,
+    "roc_auc": 0.9871
+  },
+  "evaluation_protocol": {
+    "threshold_selected_before_test_evaluation": true,
+    "test_used_for_training": false,
+    "test_used_for_architecture_selection": false,
+    "test_used_for_threshold_selection": false
+  },
+  "limitations": [
+    "Metrics apply to the text classifier only.",
+    "Metrics do not measure the complete audio, transcription, translation, backend, or mobile pipeline.",
+    "Real-world performance may differ."
+  ]
+}
