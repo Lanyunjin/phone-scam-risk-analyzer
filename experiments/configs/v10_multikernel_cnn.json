@@ -1,0 +1,41 @@
+{
+  "name": "v10_multikernel_textcnn_public_configuration",
+  "task": "binary_english_text_risk_classification",
+  "labels": {
+    "0": "Safe",
+    "1": "Risky"
+  },
+  "tokenization": {
+    "maximum_vocabulary_size": 10000,
+    "maximum_sequence_length": 100,
+    "padding": "post",
+    "truncating": "post",
+    "oov_token": "<OOV>"
+  },
+  "embedding": {
+    "name": "glove-wiki-gigaword-300",
+    "dimension": 300,
+    "trainable": false,
+    "included_in_repository": false
+  },
+  "architecture": {
+    "type": "multi_kernel_textcnn",
+    "kernel_sizes": [3, 4, 5],
+    "filters_per_branch": [64, 64, 64],
+    "pooling": "global_max",
+    "dense_units": 64,
+    "dropout": 0.5,
+    "output": "sigmoid"
+  },
+  "training": {
+    "batch_size": 32,
+    "maximum_epochs": 50,
+    "learning_rate": 0.001,
+    "early_stopping_patience": 3,
+    "random_seed": 42,
+    "grouped_cross_validation_splits": 5
+  },
+  "classification_threshold": 0.14,
+  "score_is_calibrated_probability": false,
+  "private_artifacts_included": false
+}
