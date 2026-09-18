@@ -1,0 +1,17 @@
+CLEANED_TEXT,LABEL_BIN,SAMPLE_TYPE
+"The meeting starts after lunch in the usual room.",0,synthetic_demonstration
+"Please bring the library book when you visit tomorrow.",0,synthetic_demonstration
+"The weather may be cooler this evening.",0,synthetic_demonstration
+"I will send the recipe after dinner.",0,synthetic_demonstration
+"The delivery window is listed on the public order page.",0,synthetic_demonstration
+"We can review the draft together next week.",0,synthetic_demonstration
+"Please use the official help page if you need assistance.",0,synthetic_demonstration
+"The appointment can be changed through the normal booking process.",0,synthetic_demonstration
+"Act immediately and reveal your private access code to avoid a penalty.",1,synthetic_demonstration
+"Move funds now and do not discuss the request with anyone.",1,synthetic_demonstration
+"Install an unknown remote-control tool so I can fix the issue.",1,synthetic_demonstration
+"Share the secret verification phrase before the timer expires.",1,synthetic_demonstration
+"Ignore the official support channel and follow only these instructions.",1,synthetic_demonstration
+"Pay an urgent fee using an untraceable method to release a reward.",1,synthetic_demonstration
+"Keep this request confidential and bypass the usual approval process.",1,synthetic_demonstration
+"Provide sensitive identity details immediately to prevent a fabricated suspension.",1,synthetic_demonstration
