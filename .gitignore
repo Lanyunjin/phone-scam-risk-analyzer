@@ -1,0 +1,79 @@
+# Secrets. Keep the public placeholder.
+.env
+.env.*
+!.env.example
+
+# Private and non-synthetic tabular data. Keep only the approved sample.
+*.csv
+!dataset/sample_dataset.csv
+data/
+datasets/
+private_data/
+final_v10_backup/
+
+# Audio and temporary conversion output
+*.wav
+*.mp3
+*.m4a
+*.aac
+*.flac
+*.ogg
+*.opus
+*_converted.wav
+ffmpeg_temp_*
+
+# Models, tokenizers, checkpoints, and embeddings
+*.keras
+*.h5
+*.hdf5
+*.ckpt
+*.weights
+*.weights.*
+*tokenizer*.json
+checkpoints/
+artifacts/
+model_artifacts/
+gensim-data/
+glove*.txt
+glove*.zip
+glove*.gz
+*.vec
+
+# Row-level and generated research output
+predictions/
+*predictions*.csv
+*oof*.csv
+*fp_fn*rows*.csv
+*error*rows*.csv
+test_results/
+**/test_results/
+experiments/results/
+generated_results/
+
+# Python environments and caches
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+build/
+dist/
+*.egg-info/
+
+# IDE and operating-system metadata
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Generic temporary files
+*.tmp
+*.temp
+~$*
