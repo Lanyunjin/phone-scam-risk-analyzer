@@ -1,0 +1,21 @@
+{
+  "example_type": "synthetic_demonstration",
+  "model_artifact": "not_included",
+  "threshold": 0.14,
+  "score_is_calibrated_probability": false,
+  "results": [
+    {
+      "analysis_unit_id": 1,
+      "label": 0,
+      "label_name": "Safe",
+      "score": null
+    },
+    {
+      "analysis_unit_id": 2,
+      "label": 1,
+      "label_name": "Risky",
+      "score": null
+    }
+  ],
+  "notice": "Labels illustrate output shape only. No model was run, and a Risky label does not prove fraud."
+}

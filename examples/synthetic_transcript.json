@@ -1,0 +1,24 @@
+{
+  "example_type": "synthetic_demonstration",
+  "recognition_language": "th-TH",
+  "status": "completed",
+  "segments": [
+    {
+      "segment_id": 1,
+      "speaker_id": "Guest-1",
+      "text": "กรุณาใช้ช่องทางช่วยเหลืออย่างเป็นทางการ",
+      "recognition_status": "recognized",
+      "offset_seconds": 0.5,
+      "duration_seconds": 2.4
+    },
+    {
+      "segment_id": 2,
+      "speaker_id": "Guest-2",
+      "text": "ฉันจะตรวจสอบข้อมูลจากแหล่งที่เชื่อถือได้ก่อน",
+      "recognition_status": "recognized",
+      "offset_seconds": 3.2,
+      "duration_seconds": 2.8
+    }
+  ],
+  "notice": "Newly authored fictional content; not real audio or project dataset data. Speaker IDs are neutral labels."
+}
