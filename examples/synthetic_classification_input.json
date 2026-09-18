@@ -1,0 +1,16 @@
+{
+  "example_type": "synthetic_demonstration",
+  "language": "en",
+  "translation_status": "demonstration_only_not_implemented",
+  "analysis_units": [
+    {
+      "analysis_unit_id": 1,
+      "text": "Please use the official support channel for assistance."
+    },
+    {
+      "analysis_unit_id": 2,
+      "text": "Reveal a private access code immediately and bypass normal safeguards."
+    }
+  ],
+  "notice": "Fictional English demonstration text; not copied or derived from V9 or V10."
+}
